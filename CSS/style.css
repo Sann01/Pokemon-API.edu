@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;500;600;700;800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Oxanium', cursive;
+  background-repeat:none;
+}
+#pokedex{
+    width: 100%;
+    max-width: 900px;
+    margin-top: -5%;
+}
+#pokedex img{
+  width: 100%;
+}
+
+body {
+  text-align: center;
+  background: linear-gradient(to bottom, #000000, #fff);
+  min-height: 100vh;
+}
+
+main {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 2%;
+  padding: 2%;
+}
+
+.pokemon-image{
+  position: absolute;
+  height: 20%;
+  bottom: 50%;
+  transform: translate(-50%, 10%);
+  left: 32%;
+  top: 28%;
+}
+
+.data {
+  position: absolute;
+  height: 20%;
+  font-weight: 700;
+  color: #000000;
+  top: 33%;
+  left: 59%;
+  font-size: clamp(8px, 5vw, 27px);
+}
+
+.pokemon-name {
+  position: absolute;
+  height: 35%;
+  width: 10%;
+  color: #ffffff;
+  text-transform: capitalize;
+  font-size: 100%;
+}
+
+.input-search {
+  position: absolute;
+  width: 20%;
+  height: 1%;
+  padding: 1.3%;
+  outline: none;
+  border: 2px solid #333;
+  border-radius: 10px;
+  font-weight: 715;
+  color: #3a444d;
+  font-size: clamp(8px, 5vw, 0.8rem);
+  box-shadow: -3px 4px 0 #888, -5px 7px 0 #333;
+  left: 20%;
+  bottom: 20%;
+}
+
+.buttons {
+  position: absolute;
+  width: 10%;
+  display: flex;
+  top: 60%;
+  width:15%;
+  left: 40%;
+}
+
+#buttonbtn-prev{
+  position: absolute;
+  width: 90%;
+  padding: 2px;
+  border: 2px solid #000;
+  border-radius: 5px;
+  font-size: clamp(8px, 5vw, 20px);
+  font-weight: 715;
+  color: white;
+  background-color: #444;
+  box-shadow: -2px 3px 0 #222, -4px 6px 0 #000;
+  left: 86%;
+}
+
+#buttonbtn-next{
+  position: relative;
+  width: 90%;
+  padding: 2px;
+  border: 2px solid #000;
+  border-radius: 5px;
+  font-size: clamp(8px, 5vw, 20px);
+  font-weight: 715;
+  color: white;
+  background-color: #444;
+  box-shadow: -2px 3px 0 #222, -4px 6px 0 #000;
+  left: 180%;
+  height: 50%;
+}a
